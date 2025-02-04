@@ -96,6 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 _buildButton('C'), 
+                _buildButton('='),
               ],
             ),
             const SizedBox(height: 10),
@@ -119,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 _buildButton('0', flex: 2),
                 _buildButton('.'),
                 _buildButton('+'),
-                _buildButton('='),
+                _buildButton('%'),
               ],
             ),
           ],
